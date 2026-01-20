@@ -1,16 +1,30 @@
-# React + Vite
+Travel Website (Frontend Only)
+Overview live link -- https://jaddofrontend.onrender.com
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a frontend-only Travel Website built with React.js. The design is based on Figma. It includes pages for home, login, signup,
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Responsive UI using React and Bootstrap
 
-## React Compiler
+Navigation between pages using React Router
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Conditional rendering for admin and regular users (UI only)
 
-## Expanding the ESLint configuration
+Static data for users and destinations (no backend)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Login, Signup, and My Profile forms (UI only)
+
+View user details and delete user buttons (UI only)
+
+Technologies
+
+React.js, Bootstrap, CSS
+
+React Router DOM
+
+React Toastify
+
+Note
+
+This project is frontend-only. No API or backend integration is implemented.
