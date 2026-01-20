@@ -6,12 +6,12 @@ const Testimonials = () => {
     <div>
       <div className="container">
         <div className="row">
-          <div className="col-6">
+          <div className="col-12 col-md-6">
             <h4>TESTIMONIALS</h4>
             <h2 className="fs-1 fw-bold">What People Say</h2>
             <h2 className="fs-1 fw-bold"> About US</h2>
           </div>
-          <div className="col-6">
+          <div className="col-12 col-md-6">
             <div class="card border-top-0">
               <img
                 src={testimonials1}
